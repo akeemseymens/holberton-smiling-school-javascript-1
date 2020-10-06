@@ -97,6 +97,11 @@ header {
   font-size: 30px;
 }
 
+.badge:hover,
+.badge:active {
+  opacity: 0.9;
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
