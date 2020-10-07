@@ -82,7 +82,7 @@ function createLatest(data) {
                       </div>
                   </div>
                   <div class="row justify-content-between mt-2">
-                      <div class="col" id="stars-${data.id}">
+                      <div class="col" id="stars-latest-${data.id}">
                       </div>
                       <div class="col-4 text-right purple-text">
                           ${data.duration}
@@ -95,11 +95,11 @@ function createLatest(data) {
   }
   for (let i = 0; i < 5; i++) {
     if (i < data.star) {
-      $(`#stars-${data.id}:nth-child(1)`).append(
+      $(`#stars-latest-${data.id}:nth-child(1)`).append(
         '<img src="images/star_on.png" width="15" height="15" alt="Star on" loading="lazy">'
       );
     } else {
-      $(`#stars-${data.id}:nth-child(1)`).append(
+      $(`#stars-latest-${data.id}:nth-child(1)`).append(
         '<img src="images/star_off.png" width="15" height="15" alt="Star off" loading="lazy">'
       );
     }
