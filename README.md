@@ -7,6 +7,10 @@
 * Your scripts.js must contain all your Javascript part
 * Your Javascript must be executed only when the document is loaded
 
+Here's the final result:
+
+![Final result](https://github.com/bmuha1/holberton-smiling-school-javascript/blob/main/images/holberton-smiling-school-javascript.jpg)
+
 ---
 
 ### [0. Reuse and polish your Bootstrap integration](./0-homepage.html)
